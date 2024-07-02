@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.meal-from{
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.meal-label{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.meal-order-btn{
+    width: 50%;
+}
+.meal-img-wrapper{
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.meal-img-wrapper{
+    transition: all 0.4s;
+}
+.meal-label:nth-child(1) > .meal-img-wrapper{
+    background-image: url(./imge/Osh.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.meal-label:nth-child(2) > .meal-img-wrapper{
+    background-image: url(./imge/lagmon.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.meal-label:nth-child(3) > .meal-img-wrapper{
+    background-image: url(./imge/shashlik.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.meal-label:nth-child(4) > .meal-img-wrapper{
+    background-image: url(./imge/tandir.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
